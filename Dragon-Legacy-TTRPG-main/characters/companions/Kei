@@ -1,0 +1,150 @@
+{
+  "name": "Kei",
+  "char_id": "FROSTFANG_KEI",
+  "type": "Frostfang (Wolf-like humanoid)",
+  "role": "Skirmisher",
+  "background": "A proud scout from a pack within the Glacial Maw. He was framed for a crime against his people by a rival who sought to seize control of the pack by allying with the Arcane Dominion. Exiled and hunted, he joins the hero to protect his people from the Dominion's influence.",
+  "narrative_hook": "Kei's rival actively uses Arcane Dominion agents to hunt the party, leading to ambushes and tense tracking sequences in the wild. Kei's knowledge of the tundra is essential for finding hidden ruins and navigating the treacherous Glacial Maw.",
+  "weapon_proficiency": {
+    "favored_types": [
+      "Spear",
+      "Gauntlets"
+    ],
+    "bonus_effect": "+1 to Attack Rolls with favored weapon types.",
+    "penalty_effect": "-2 to Attack Rolls with non-favored weapon types."
+  },
+  "progression_path": {
+    "attribute_priority": [
+      "Agility",
+      "Might",
+      "Mind",
+      "Spirit"
+    ],
+    "skill_priority": [
+      "Combat",
+      "Stealth",
+      "Survival"
+    ],
+    "chosen_playstyle": "Path of the Pack Leader"
+  },
+  "playstyles": [
+    {
+      "path_name": "Path of the Lone Predator",
+      "description": "This path focuses on Kei's skills as a self-sufficient hunter and exile. It enhances his personal damage output, stealth, and survival capabilities, making him a formidable and elusive threat who excels at stalking and eliminating high-value targets.",
+      "abilities": [
+        {
+          "tier": "Novice (Level 1+)",
+          "talents": [
+            {
+              "name": "Frost Claw",
+              "effect": "Deals 1d10 physical damage. This attack deals an additional 1d10 damage if the target is within 5 feet of one of Kei's allies."
+            },
+            {
+              "name": "Hunter's Guile",
+              "effect": "As a bonus action, you can take the Hide action, even when only lightly obscured by natural terrain (foliage, mist, snow)."
+            }
+          ]
+        },
+        {
+          "tier": "Adept (Level 5+)",
+          "talents": [
+            {
+              "name": "Icy Veins (Passive)",
+              "effect": "You are resistant to cold damage. Additionally, your Frost Claw now deals an extra 1d4 cold damage on every hit."
+            },
+            {
+              "name": "Ambush",
+              "effect": "If you attack an enemy that has not yet taken a turn in combat, your first attack against them is made with Advantage and deals an extra 1d8 damage. This costs 5 Resolve."
+            }
+          ]
+        },
+        {
+          "tier": "Expert (Level 10+)",
+          "talents": [
+            {
+              "name": "Skirmisher's Retreat",
+              "effect": "After you hit a creature with a melee attack, you can use your Reaction to move up to half your movement speed without provoking an Attack of Opportunity from that creature."
+            },
+            {
+              "name": "Hamstring",
+              "effect": "You make a targeted strike at an enemy's legs. The attack deals normal damage, and the target must make a Might DC 14 check or have their movement speed halved for 3 rounds. This costs 10 Resolve."
+            }
+          ]
+        },
+        {
+          "tier": "Master (Level 15+)",
+          "talents": [
+            {
+              "name": "Go for the Throat (Modifies Ambush)",
+              "effect": "When you hit with your Ambush attack, the target also begins 'Bleeding' (1d6 damage at the start of their turn) until they are healed."
+            },
+            {
+              "name": "One with the Tundra (Passive)",
+              "effect": "You cannot be tracked by non-magical means, and you have Advantage on all Stealth checks made in snowy or icy terrain."
+            }
+          ]
+        },
+        {
+          "tier": "Archon (Level 20)",
+          "talents": [
+            {
+              "name": "Alpha Strike (Ultimate)",
+              "effect": "As a major action, you can mark a single target as your prey. For 1 minute, all of your attacks against that target are critical hits. This can only be used once per day and costs 20 Resolve."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path_name": "Path of the Pack Leader",
+      "description": "This path focuses on Kei's innate ability to lead and coordinate with his allies, just like an alpha wolf. His abilities are designed to set up flanking opportunities, bolster his allies' resolve, and create advantages through superior teamwork.",
+      "abilities": [
+        {
+          "tier": "Novice (Level 1+)",
+          "talents": [
+            {
+              "name": "Pack Howl",
+              "effect": "As a major action, you let out a rallying cry, boosting the Resolve of all allies within 30 feet by 5 points for 1 round."
+            },
+            {
+              "name": "Harrier's Strike",
+              "effect": "As a major action, you make a melee attack. If it hits, the next attack made by an ally against that same target before your next turn is made with Advantage."
+            }
+          ]
+        },
+        {
+          "tier": "Adept (Level 5+)",
+          "talents": [
+            {
+              "name": "Coordinated Takedown (Modifies Frost Claw)",
+              "effect": "The bonus damage from Frost Claw (when an ally is adjacent to the target) is now applied to any ally who attacks the target, not just Kei, until Kei's next turn. This effect can only be granted once per turn."
+            },
+            {
+              "name": "Warning Snarl (Reaction)",
+              "effect": "When an enemy moves within 5 feet of an ally, you can use your Reaction to move up to 15 feet towards that enemy and make a single melee attack against them."
+            }
+          ]
+        },
+        {
+          "tier": "Expert (Level 10+)",
+          "talents": [
+            {
+              "name": "Leader's Command",
+              "effect": "As a bonus action, you can command one ally who can see or hear you. That ally can immediately use their Reaction to move up to half their movement speed. This costs 10 Resolve."
+            },
+            {
+              "name": "Rallying Howl (Modifies Pack Howl)",
+              "effect": "Your Pack Howl now also grants all affected allies a +1 bonus to their next attack roll."
+            }
+          ]
+        },
+        {
+          "tier": "Master (Level 15+)",
+          "talents": [
+            {
+              "name": "Isolate Prey",
+              "effect": "As a major action, you and an ally adjacent to you can swap places with an enemy that is adjacent to either of you. The enemy must make an Agility DC 16 check or be successfully moved, placing them out of position and surrounded. This costs 15 Resolve."
+            },
+            {
+              "name": "Pack Tactics (Passive)",
+              "effect": "You gain a +2 bonus on your

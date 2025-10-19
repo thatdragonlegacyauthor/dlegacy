@@ -1,0 +1,167 @@
+{
+  "name": "Garrick",
+  "char_id": "VOID_GARRICK",
+  "type": "Human (Wraith)",
+  "role": "Glass Cannon/Debuffer",
+  "background": "A former high-ranking Champion of Order, betrayed and cast into the Void Chasm. His will for vengeance bound his spirit to the world as a wraith. He is bitter and struggles with his new, unholy existence.",
+  "narrative_hook": "He was betrayed by Grand Inquisitor Valerius himself, after discovering Valerius was using void energy to create fanatical soldiers. He seeks Rya's power as a weapon against the man who made him a monster.",
+  "weapon_proficiency": {
+    "favored_types": [
+      "Sword",
+      "Dagger"
+    ],
+    "bonus_effect": "+1 to Attack Rolls with favored weapon types.",
+    "penalty_effect": "-2 to Attack Rolls with non-favored weapon types."
+  },
+  "progression_path": {
+    "attribute_priority": [
+      "Agility",
+      "Spirit",
+      "Mind",
+      "Might"
+    ],
+    "skill_priority": [
+      "Stealth",
+      "Arcana",
+      "Lore"
+    ],
+    "chosen_playstyle": "Path of the Vengeful Spirit"
+  },
+  "progression_type": "Static",
+  "playstyles": [
+    {
+      "path_name": "Path of the Vengeful Spirit",
+      "description": "Garrick's abilities as a wraith, focusing on necrotic damage, incorporeal movement, and debilitating debuffs to weaken his enemies from within. His fury is a cold, calculated weapon.",
+      "abilities": [
+        {
+          "tier": "Novice (Level 1+)",
+          "talents": [
+            {
+              "name": "Life Drain",
+              "effect": "As a major action, make a melee attack that deals 1d10 necrotic damage. Garrick heals for half of the damage dealt."
+            },
+            {
+              "name": "Incorporeal Movement (Passive)",
+              "effect": "Garrick can move through other creatures and objects as if they were difficult terrain. If he ends his turn inside an object, he is shunted to the nearest open space and takes 1d6 force damage."
+            }
+          ]
+        },
+        {
+          "tier": "Adept (Level 5+)",
+          "talents": [
+            {
+              "name": "Withering Touch",
+              "effect": "As a major action, Garrick touches a creature, forcing them to make a Mind DC 13 check. On a failure, they deal 2 less damage on all attacks for 3 rounds. This costs 5 Resolve."
+            },
+            {
+              "name": "Shadow Step (Modifies Incorporeal Movement)",
+              "effect": "Garrick can now teleport up to 15 feet to a shadowed or unlit area as a bonus action, even when a direct path is blocked by a creature or object."
+            }
+          ]
+        },
+        {
+          "tier": "Expert (Level 10+)",
+          "talents": [
+            {
+              "name": "Possess",
+              "effect": "As a major action, Garrick can attempt to possess a single humanoid target. The target must make a Spirit DC 16 check. On a failure, Garrick can control their actions for one turn. This can only be attempted once per creature per combat. This costs 10 Resolve."
+            },
+            {
+              "name": "Wraith's Fury (Modifies Life Drain)",
+              "effect": "On a critical hit with Life Drain, the target's Vitality maximum is reduced by 1d10 until they take a long rest."
+            }
+          ]
+        },
+        {
+          "tier": "Master (Level 15+)",
+          "talents": [
+            {
+              "name": "Unravel Soul",
+              "effect": "As a major action, Garrick makes a powerful, targeted attack on a creature's soul. The target takes 3d12 necrotic damage and must succeed on a Spirit DC 16 check or become 'Stunned' for 1 round. This costs 15 Resolve."
+            },
+            {
+              "name": "Vengeful Echo (Passive)",
+              "effect": "Whenever an ally is reduced to 0 Vitality within 30 feet of Garrick, he can use his Reaction to make an immediate, free attack with Life Drain against the creature that downed his ally."
+            }
+          ]
+        },
+        {
+          "tier": "Archon (Level 20)",
+          "talents": [
+            {
+              "name": "Final Vengeance (Ultimate)",
+              "effect": "As a major action, Garrick unleashes a torrent of soul-shattering energy in a 30-foot radius. All enemies in the area take 6d12 necrotic damage. This deals double damage to Grand Inquisitor Valerius if he is within the radius. This can only be used once per day and costs 20 Resolve."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path_name": "Path of the Betrayed Blade",
+      "description": "This path focuses on the martial prowess Garrick possessed in life as a Champion of Order, now twisted by his wraith-like state. It emphasizes ghostly swordplay, tactical positioning, and punishing enemies for their mistakes, turning him into a spectral duelist.",
+      "abilities": [
+        {
+          "tier": "Novice (Level 1+)",
+          "talents": [
+            {
+              "name": "Spectral Parry (Reaction)",
+              "effect": "When an enemy targets you with a melee attack, you can use your Reaction to impose a -2 penalty on their attack roll."
+            },
+            {
+              "name": "Champion's Focus",
+              "effect": "As a bonus action, you analyze an enemy's defenses. Your next attack roll against that target before the end of your turn is made with Advantage."
+            }
+          ]
+        },
+        {
+          "tier": "Adept (Level 5+)",
+          "talents": [
+            {
+              "name": "Incorporeal Feint",
+              "effect": "As a bonus action, you can feint an attack, forcing an enemy within 5 feet to make a Mind DC 13 check. On a failure, their next attack roll has a -2 penalty, and your next attack against them has a +2 bonus. This costs 5 Resolve."
+            },
+            {
+              "name": "Blade Dance (Passive)",
+              "effect": "When you hit a creature with a melee attack, your movement does not provoke an Attack of Opportunity from that creature for the rest of your turn."
+            }
+          ]
+        },
+        {
+          "tier": "Expert (Level 10+)",
+          "talents": [
+            {
+              "name": "Executioner's Strike",
+              "effect": "As a major action, you make a single melee attack against a creature suffering from a negative status effect (e.g., Frightened, Poisoned, Stunned). This attack deals an additional 2d10 necrotic damage. This costs 10 Resolve."
+            },
+            {
+              "name": "Vengeful Riposte (Modifies Spectral Parry)",
+              "effect": "When you successfully use Spectral Parry to cause an enemy's attack to miss, you can immediately make one melee attack against them as part of the same Reaction."
+            }
+          ]
+        },
+        {
+          "tier": "Master (Level 15+)",
+          "talents": [
+            {
+              "name": "Order's Downfall",
+              "effect": "As a major action, you make a single, precise strike against an enemy. This attack ignores all non-magical Damage Reduction. This costs 15 Resolve."
+            },
+            {
+              "name": "Phase Shift (Reaction)",
+              "effect": "Once per combat, when you would take damage from an attack, you can use your Reaction to become incorporeal for a moment, taking no damage from that attack."
+            }
+          ]
+        },
+        {
+          "tier": "Archon (Level 20)",
+          "talents": [
+            {
+              "name": "Duelist's Requiem (Ultimate)",
+              "effect": "As a major action, you can mark a single enemy as your sworn foe for 1 minute. For the duration, all of your attacks against that target deal an additional 1d12 necrotic damage, and the target's attack rolls against you are made with Disadvantage. This can only be used once per day and costs 20 Resolve."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

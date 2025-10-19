@@ -1,0 +1,444 @@
+{
+  "locations": [
+    {
+      "name": "Windmark Village",
+      "type": "Village",
+      "description": "The hero's starting home, located on the Azure Steppes. Once known for its serene wind-chimes, it is now rebuilding after a devastating attack by the Champions of Order."
+    },
+    {
+      "name": "Wyndia",
+      "type": "City-State",
+      "description": "A majestic floating city, the jewel of the Ember Concord, ruled by a fae-like nobility with bird-like wings and powered by massive wind-magic spires.",
+      "key_characters": [
+        {
+          "name": "Lord Aerion",
+          "char_id": "WYNDIA_AERION",
+          "description": "The stern and pragmatic ruler of Wyndia. He values order and stability above all, viewing unchecked power as a threat to his city's delicate peace."
+        },
+        {
+          "char_id": "WYNDIA_NINA"
+        }
+      ]
+    },
+    {
+      "name": "Port Myria",
+      "type": "Town",
+      "description": "A bustling port town on the southern coast, a major trade hub for the Ember Concord. A melting pot of cultures, but rife with political intrigue and black markets."
+    },
+    {
+      "name": "Stonegard",
+      "type": "Fortress Town",
+      "description": "A settlement of the lizard-like Stonekin carved into a mountain face. A key bastion for the Scalebound Clans, it guards a sacred passage to the Dragon's Graveyard."
+    },
+    {
+      "name": "Stonekin Outpost",
+      "type": "Outpost",
+      "description": "A small, fortified outpost of the Scalebound Clans, located in the mountain pass.",
+      "key_characters": [
+        {
+          "name": "Grak, the Gatewarden",
+          "char_id": "SCALEBOUND_GRAK",
+          "description": "A stout, powerfully built Stonekin with slate-grey scales and a stubborn set to his jaw. He is fiercely protective of his post and deeply suspicious of outsiders."
+        },
+        {
+          "name": "Karrus, the Master Smith",
+          "char_id": "SCALEBOUND_KARRUS",
+          "description": "A scarred and ancient Stonekin with a deep respect for powerful materials. As the master smith, he takes a strong interest in Rya's draconic power, seeing it as a source of potential for forging legendary gear."
+        }
+      ]
+    },
+    {
+      "name": "Tanglewood Reach",
+      "type": "Village",
+      "description": "A secluded village built high in the canopy of the Whispering Woods. Its inhabitants are isolationists with deep knowledge of natural remedies and ancient forest spirits.",
+      "key_characters": [
+        {
+          "name": "Elder Briar",
+          "char_id": "TANGLEWOOD_BRIAR",
+          "role": "Village Leader",
+          "description": "The wise and cautious leader of Tanglewood. He will be deeply suspicious of Rya's draconic power, seeing it as a destructive, unnatural force."
+        },
+        {
+          "name": "Kaelen",
+          "char_id": "TANGLEWOOD_KAELEN",
+          "role": "Lead Scout",
+          "description": "A young, skilled hunter who is one of the few to venture to the forest floor. He is curious about the outside world and may be a crucial ally for the party."
+        },
+        {
+          "name": "Lyssa",
+          "char_id": "TANGLEWOOD_LYSSA",
+          "role": "Apothecary and Spirit-Speaker",
+          "description": "The village's primary healer and spiritual guide. She communes with the forest's spirits and has knowledge of ancient lore."
+        }
+      ]
+    },
+    {
+      "name": "The Shattered Lands",
+      "type": "Region",
+      "description": "A vast, desolate wasteland scarred by the cataclysm that ended the last age. The land is twisted, inhabited by mutated beasts, and permeated by chaotic magical energy."
+    },
+    {
+      "name": "The Crystal Spire",
+      "type": "Landmark",
+      "description": "A towering monolith of pulsating crystal in the desert, harnessed by the Arcane Dominion as a massive power source for their unethical experiments.",
+      "key_characters": [
+        {
+          "name": "Archon Malakor",
+          "char_id": "DOMINION_MALAKOR",
+          "description": "The enigmatic leader of the Arcane Dominion. Malakor is a brilliant, ancient mage who views morality as a limitation to the pursuit of ultimate knowledge and power."
+        }
+      ]
+    },
+    {
+      "name": "Sunken City of Astora",
+      "type": "Dungeon",
+      "description": "The ruins of a magnificent pre-Shattering city now lost beneath the waves. It is the true home of the Astoran Conclave. The 'Chamber of the Abyssal Moon' within serves as the nexus of the Tide lineage, where one must pass the 'Trial of Tides' by manipulating currents in a complex environmental puzzle to attune to the aspect."
+    },
+    {
+      "name": "Mount Dragnor",
+      "type": "Dungeon",
+      "description": "A dormant volcano where ancient followers of the Fire dragons built a grand temple. It is now a dangerous labyrinth and the nexus of the Fire lineage. To attune, one must enter the 'Caldera of the First Flame' at its heart and complete the 'Trial of Dominion' by taming several Primal Embers before absorbing the power of the First Flame itself."
+    },
+    {
+      "name": "The Whispering Woods",
+      "type": "Region",
+      "description": "An ancient, mist-shrouded forest where the trees are said to hold the memories of the world. A place of potent natural magic and home to Tanglewood Reach."
+    },
+    {
+      "name": "Elysian Grand Cathedral",
+      "type": "Landmark",
+      "description": "The magnificent center of the Champions of Order's power. Publicly a place of healing and light, its hidden catacombs hold cells for those deemed 'chaotic'.",
+      "key_characters": [
+        {
+          "name": "Grand Inquisitor Valerius",
+          "char_id": "CHAMPIONS_VALERIUS",
+          "description": "A relentless and high-ranking commander of the Champions of Order. Utterly devoted to Elysia's cause, he is the primary antagonist pursuing the party, believing Rya's power is a plague that must be purged from the world."
+        }
+      ]
+    },
+    {
+      "name": "The Void Chasm",
+      "type": "Region",
+      "description": "A bottomless abyss that tears through the Shattered Lands. Reality is thin here, and creatures touched by entropy and shadow are drawn to its palpable silence. The 'Heart of the Void' at its center is the nexus of the Void lineage, where one must pass the 'Trial of the Echo' by confronting and accepting their own inner darkness to attune."
+    },
+    {
+      "name": "The Glacial Maw",
+      "type": "Region",
+      "description": "A vast, frozen tundra in the far north, dominated by a colossal, moving glacier. It is the hunting ground of the Frostfang clans and a nexus of Ice lineage power."
+    },
+    {
+      "name": "Dragon's Graveyard",
+      "type": "Landmark",
+      "description": "A sacred and desolate valley littered with the fossilized bones of colossal dragons. The Scalebound Clans consider it their most holy site. The 'Heart-Stone of the World-Serpent' within the skull of the largest dragon is the nexus of the Earth lineage. To attune, one must pass the 'Trial of Roots' by spiritually withstanding the psychic weight of the World-Serpent's memories."
+    },
+    {
+      "name": "Tidewatch Spire",
+      "type": "Outpost",
+      "description": "The sole embassy of the Astoran Conclave to the surface world. This lone, coral-encrusted tower stands on a remote, mist-shrouded coastline, from which the Astorans observe the changing tides of power in Eryndor.",
+      "key_characters": [
+        {
+          "name": "Loremaster Oris",
+          "char_id": "ASTORAN_ORIS",
+          "description": "An ancient Astoran whose bioluminescent scales have faded to a pale white. As the keeper of prophecies, he may offer the party cryptic guidance in exchange for recovering lost Astorani artifacts."
+        }
+      ]
+    },
+    {
+      "name": "The Oasis of Zha'Vask",
+      "type": "Town",
+      "description": "A neutral, bustling trade hub deep within the southern deserts. The Oasis is the unofficial capital of the Gilded Paw Caravan and a haven for merchants, mercenaries, and spies.",
+      "key_characters": [
+        {
+          "name": "Farah, the 'Caravan Master'",
+          "char_id": "GILDEDPAW_FARAH",
+          "description": "A cunning and charismatic fox-like beastwoman who leads the Gilded Paw. She can procure nearly any item or piece of intelligence for the right price, but her loyalty is always to profit."
+        }
+      ]
+    },
+    {
+      "name": "Frostfang Den",
+      "type": "Village",
+      "description": "A fortified settlement carved into the ice of a massive glacier within the Glacial Maw, serving as the main den for Kael's pack.",
+      "key_characters": [
+        {
+          "name": "Vargus, the Iron-Fang",
+          "char_id": "FROSTFANG_VARGUS",
+          "description": "The usurper chieftain of Kael's pack. A large Frostfang with dark fur and crude cybernetic enhancements, he believes tradition makes his people weak and has allied with the Arcane Dominion for power."
+        }
+      ]
+    },
+    {
+      "name": "The Arcanum Vaults",
+      "type": "Dungeon",
+      "description": "A vast, pre-Shattering ruin in the Dominion's territory, filled with dangerous automated defenses and lost technology. A hidden enclave of the Runeforge Remnants has taken up residence here.",
+      "key_characters": [
+        {
+          "name": "Archivist Elara",
+          "char_id": "RUNEFORGE_ELARA",
+          "description": "The sharp-witted leader of the local Runeforge Remnant enclave. She seeks to reactivate a massive machine in the vaults and sees Rune as a priceless key to her research."
+        }
+      ]
+    },
+    {
+      "name": "The Well of Souls",
+      "type": "Landmark",
+      "description": "A place where the veil between the world of the living and the echoes of the dead is unnaturally thin. Located in a secluded grotto on the Azure Steppes, it appears as a pool of still, silvery water. It is a place of potent spiritual energy, used to commune with spirits who have unresolved attachments to the world.",
+      "key_characters": [
+        {
+          "name": "The Echo of Elara",
+          "char_id": "SPIRIT_ELARA",
+          "description": "The lingering spirit of Rya's adoptive mother, bound to the Well by her violent death and her connection to Rya's heritage. She can be communed with to provide clarity on Rya's forgotten past."
+        }
+      ]
+    },
+    {
+      "name": "Sky-Reach Aerie",
+      "type": "Village",
+      "description": "Carved into the highest peaks of the Serpent's Coil mountains, this is the ancestral home of the Skyveil people—a society of falcon-like humanoids. It is a city of vertical towers connected by rope bridges, and its people are proud, isolationist hunters who value freedom above all.",
+      "key_characters": [
+        {
+          "name": "Elder Vasha",
+          "char_id": "SKYVEIL_VASHA",
+          "description": "The matriarch of the Skyveil and Talia's former mentor. She is fiercely protective of her people's independence and may become an ally if the party can prove their goals align with protecting the Aerie from the Arcane Dominion."
+        }
+      ]
+    },
+    {
+      "name": "Havenwood",
+      "type": "Village",
+      "description": "A small, devout village on the edge of the Whispering Woods. Its people are pious and hardworking, but have been manipulated by the Champions of Order into fearing the 'old magic' of the woods.",
+      "key_characters": [
+        {
+          "name": "Mayor Theron",
+          "char_id": "HAVENWOOD_THERON",
+          "description": "The genuinely good-hearted but naive mayor of Havenwood. He has been convinced by a visiting Elysian priestess that a 'chaotic beast' is the source of his village's recent misfortunes and will hire the party to destroy it."
+        }
+      ]
+    },
+    {
+      "name": "The Serpent's Maw Jungle",
+      "type": "Region",
+      "description": "A vast, sweltering jungle south of the Azure Steppes, named for the massive, snake-like river that carves through its heart. The jungle is a vertical maze of colossal trees, hanging vines, and crumbling, vine-choked ruins from a forgotten civilization. It is notoriously difficult to navigate, making it a perfect haven for outlaws, smugglers, and secretive communities. The Arcane Dominion frequently sends expeditions into the jungle, seeking to plunder the potent magical artifacts left behind by its former inhabitants."
+    },
+    {
+      "name": "The Mistwood Vale",
+      "type": "Region",
+      "description": "A secluded and perpetually fog-shrouded valley nestled on the remote western coast, not far from the Sunken City of Astora. The veil between the physical and spirit worlds is unnaturally thin here, causing the landscape to subtly shift and memories of the past to manifest as ghostly echoes. This valley was the ancestral home of a spectral tribe who acted as keepers of the balance between worlds. The ruins of their settlements are now silent, haunted monuments, holding deep secrets about the Shattering."
+    },
+    {
+      "name": "The Iron Peaks",
+      "type": "Region",
+      "description": "A harsh, mineral-rich mountain range north of the Scalebound Clans' territory, acting as a buffer between the central lands and the hostile Glacial Maw. The Armadillians do not build cities on the mountains, but *in* them, carving out immense, geode-like **Forge-Cities** centered around volcanic vents that serve as their Great Forges. Their culture is one of resilience, craftsmanship, and isolationism. They are distrustful of outsiders, and the recent theft of their relics by the Champions of Order has made them even more so."
+    },
+    {
+      "name": "The Sunken Temple of Ahn'Qotl",
+      "type": "Dungeon",
+      "description": "An ancient temple complex from a forgotten civilization, now half-swallowed by the jungle's swampy floor. It is said to house a stolen relic. The temple is a treacherous maze of water-filled corridors, pressure-plate traps, and territorial, amphibious beasts. The Arcane Dominion has a heavily guarded excavation site at its entrance, making a direct approach nearly impossible."
+    },
+    {
+      "name": "Black-Tusk Grotto",
+      "type": "Outpost",
+      "description": "A hidden, neutral settlement built into a series of interconnected caves behind a waterfall. It serves as a black market and sanctuary for smugglers, treasure hunters, and those hiding from the major factions. It's a place to gather rumors, hire sellswords, or acquire rare and illicit goods.",
+      "key_characters": [
+        {
+          "name": "'Mama' Kiri",
+          "char_id": "GROTTO_KIRI",
+          "description": "A shrewd, elderly panther-like woman who runs the grotto's main tavern and spy network. She has a soft spot for Lirien but will sell information on him to the highest bidder if it means keeping her community safe."
+        }
+      ]
+    },
+    {
+      "name": "The Hanging Gardens",
+      "type": "Landmark",
+      "description": "A breathtakingly beautiful, yet deadly, series of ancient, terraced gardens built on the side of a massive plateau deep within the jungle. The flora here is unique and highly magical, including rare alchemical ingredients and carnivorous plants. Navigating the gardens requires expert knowledge of the terrain and its dangers."
+    },
+    {
+      "name": "The Ruins of Silverwood",
+      "type": "Village (Ruined)",
+      "description": "The ancestral home of Eldra's tribe, now a collection of silent, crumbling stone structures overgrown with phosphorescent moss. The mists are thickest here, and powerful memories cling to the ruins. At certain times, ghostly echoes of the villagers replay their final moments before the tribe's mysterious disappearance, offering cryptic clues about the Shattering and the nature of the spirits that now guard the vale."
+    },
+    {
+      "name": "The Weeping Barrows",
+      "type": "Dungeon",
+      "description": "A series of ancient burial mounds, the final resting place for the tribe's most honored dead, including the line of oracles that preceded Eldra. The barrows are protected by powerful ancestral spirits who will test the party's resolve and respect for the dead. Deeper within lies the tomb of the First Oracle, which is said to hold the key to understanding the full extent of Eldra's powers."
+    },
+    {
+      "name": "The Stillwater Shrine",
+      "type": "Landmark",
+      "description": "A hidden, circular clearing in the vale containing a perfectly still, mirror-like pool of water. The pool does not reflect the sky, but instead shows visions: fleeting glimpses of the past, the present elsewhere in the world, or possible futures. Communing with the pool requires a difficult Spirit check and can be mentally draining, but it offers a powerful source of divination and guidance."
+    },
+    {
+      "name": "The Titan's Crossing",
+      "type": "Landmark",
+      "description": "A massive, petrified skeleton of a colossal, unknown creature from before the Shattering, so large that it forms a natural bridge over the Azure River. The bones are covered in ancient, weathered carvings. Local legends say the spirit of the beast still lingers, and strange magical phenomena are common near the Crossing."
+    },
+    {
+      "name": "The Rust-Rock Canyon",
+      "type": "Dungeon",
+      "description": "A network of deep, rust-colored canyons that cut through the plains. The canyon walls are riddled with caves that have become a major den for bandits and cutthroats who prey on the trade routes between Windmark and Port Myria. Deeper within lies a hidden spring, which is rumored to have restorative properties.",
+      "key_characters": [
+        {
+          "name": "'One-Eye' Joric",
+          "char_id": "BANDIT_JORIC",
+          "description": "The pragmatic and ruthless leader of the Rust-Rock bandits. He's not purely evil, but he is a survivor who will do what's necessary to protect his crew and their territory."
+        }
+      ]
+    },
+    {
+      "name": "The Silent Fields",
+      "type": "Landmark",
+      "description": "A large, circular plain of grassland where no sound can be made. All noise, from the wind to a shout, is magically silenced within its borders. At the very center of the field is a single, perfectly smooth obsidian monolith that hums with a palpable, silent energy. It is a place of meditation for some, and a source of dread for others."
+    },
+    {
+      "name": "The Elderwood Grove",
+      "type": "Landmark",
+      "description": "A hidden, sacred grove deep within the forest where the most ancient trees reside. The air here is thick with primal magic, and the trees are said to be sentient, whispering prophecies to those who know how to listen. This grove is a place of immense natural power, a place to commune with the spirit of Eryndor itself, and is rumored to be where the 'Heartseed of the First Forest' originated."
+    },
+    {
+      "name": "The Gloomfang Caverns",
+      "type": "Dungeon",
+      "description": "A dark, web-choked network of caves that serves as the primary lair for the vicious Gloomfang Wolves and monstrous Giant Spiders. The caverns are a source of the creeping corruption that once plagued the forest, and valuable alchemical ingredients can be harvested from the dangerous fauna within."
+    },
+    {
+      "name": "The Silken Market",
+      "type": "Landmark",
+      "description": "A sprawling, semi-legal black market that operates in the tangled alleyways of Port Myria's lower districts. One can find anything here for the right price, from rare artifacts and illegal spell components to sensitive political information. It is the unofficial territory of the Gilded Paw Caravan, who use it as their primary hub for espionage."
+    },
+    {
+      "name": "The Pinnacle of the Gale",
+      "type": "Landmark",
+      "description": "The most prestigious academy of wind magic in Eryndor, located on the highest spire of the floating city of Wyndia. Here, the winged nobility train in the art of aeromancy and statecraft. The academy is a hotbed of political rivalries and secret societies, and its library contains invaluable lore on wind-magic and the history of the Concord."
+    },
+    {
+      "name": "The Crossroads Garrison",
+      "type": "Outpost",
+      "description": "A heavily fortified, neutral garrison built at the strategic intersection of the trade routes connecting Wyndia, Port Myria, and Stonegard. It is jointly operated by the Concord's members to protect merchants from bandits and monsters, but its command is a rotating position, making it a focal point for the cold war of influence between the city-states."
+    },
+    {
+      "name": "The Ruined Citadel of the Dragon Lords",
+      "type": "Dungeon",
+      "description": "The skeletal remains of the pre-Shattering capital city, a place of immense power where the Dragon Lords once ruled. Now, it is a sprawling, high-level dungeon of shattered towers, crystalline overgrowth, and powerful, corrupted magical echoes. It is guarded by ancient, automated defenses and haunted by the twisted spirits of its last inhabitants."
+    },
+    {
+      "name": "The Glass-Storm Flats",
+      "type": "Landmark",
+      "description": "A vast plain of black, volcanic sand where the chaotic magic of the Shattering perpetually whips up lethal storms of razor-sharp obsidian shards. Crossing the flats is incredibly dangerous and requires special equipment, powerful magic, or waiting for the rare, unpredictable lulls in the storm."
+    },
+    {
+      "name": "The Scavenger's Hope",
+      "type": "Outpost",
+      "description": "A small, heavily fortified settlement built into the shell of a colossal, fossilized beast. It is a haven for the desperate and the resilient: scavengers, exiles, and lore-seekers who brave the dangers of the Shattered Lands for fortune and knowledge. It's the only place to reliably trade or rest for hundreds of miles.",
+      "key_characters": [
+        {
+          "name": "'Scrap-Heap' Anya",
+          "char_id": "SCAVENGER_ANYA",
+          "description": "A pragmatic and tough-as-nails engineer who leads the settlement. She is a member of the Runeforge Remnants and is obsessed with recovering lost technology from the surrounding ruins."
+        }
+      ]
+    },
+    {
+      "name": "The Mana-Well Fields",
+      "type": "Landmark",
+      "description": "A bizarre landscape dotted with pools of bubbling, iridescent raw mana that have seeped up from the world's ley lines. The air hums with unstable energy. While incredibly dangerous to the touch, the wells can be used by skilled mages to temporarily supercharge their abilities, at the risk of magical corruption."
+    },
+    {
+      "name": "The Maw of the Sand Worm",
+      "type": "Lair",
+      "description": "A massive crater in the desolate sands, surrounded by the bleached bones of enormous creatures. This is the central lair of a legendary Sand Worm, a colossal beast that terrorizes the entire region. The ground is unstable, and the entire area is riddled with tunnels created by the creature."
+    },
+    {
+      "name": "The Trial of Scales",
+      "type": "Landmark",
+      "description": "A sheer, treacherous cliff face of jagged obsidian known to the Stonekin as the Trial of Scales. It serves as the final rite of passage for their warriors, who must climb it without ropes or assistance to prove their strength and spirit. At the summit is a small, wind-scoured shrine where oaths are sworn."
+    },
+    {
+      "name": "The Sunstone Quarry",
+      "type": "Dungeon",
+      "description": "A vital quarry where the Stonekin mine unique, faintly glowing sunstone—a mineral they use for forging ceremonial armor and focusing earthen magic. The deepest chambers of the quarry have recently been overrun by burrowing Rock Serpents and territorial Crystal Entities, cutting off the clan from their sacred resource."
+    },
+    {
+      "name": "The Bio-Arcane Pens",
+      "type": "Dungeon",
+      "description": "A heavily guarded facility where the Arcane Dominion conducts horrific experiments, creating magically augmented and cross-bred creatures. Cages and containment fields hold everything from captured Gloomfang Wolves to failed attempts at creating artificial dragonkin. The entire area is a grim testament to the Dominion's disregard for life in the pursuit of power."
+    },
+    {
+      "name": "The Scorch-Stone Mines",
+      "type": "Dungeon",
+      "description": "A vast strip mine where the Dominion uses powerful constructs and indentured laborers to excavate Scorch-Stone, a rare mineral that can store and amplify raw magical energy. The mines are dangerous, filled with unstable magical residue, territorial elementals, and cruel Dominion taskmasters."
+    },
+    {
+      "name": "The Borean Shelf",
+      "type": "Landmark",
+      "description": "The edge of the world itself, a massive, miles-long cliff of pure ice that drops into the frozen northern sea. The winds here are strong enough to tear a person from their feet, and colossal, prehistoric beasts can sometimes be seen frozen within the ancient ice of the cliff face."
+    },
+    {
+      "name": "The Sunken Lair of the Frost Wyrm",
+      "type": "Dungeon",
+      "description": "A vast network of shimmering ice caves carved by a legendary Frost Wyrm. It serves as a nexus of Ice lineage energy. The deepest chamber contains the 'Heart of Winter,' a flawless crystal of pure, frozen magic, where a worthy heir can undergo the 'Trial of the Unbroken Heart' to attune to the Ice lineage by withstanding its soul-freezing spiritual cold."
+    },
+    {
+      "name": "The Sky-Fire Peaks",
+      "type": "Landmark",
+      "description": "A range of jagged, black mountains that are perpetually wreathed in a spectacular aurora. The strange, colorful lights are said to be the spirits of ancient giants and have a tangible magical effect, sometimes enhancing ice magic and sometimes causing bizarre, unpredictable illusions."
+    },
+    {
+      "name": "The Ancestral Hunting Grounds",
+      "type": "Landmark",
+      "description": "A wide, snow-swept valley considered sacred by the Frostfang. They believe the spirits of the greatest hunters and the most legendary prey still roam this valley. It is a place for spiritual journeys and for young Frostfang to test their skills against the echoes of the past."
+    },
+    {
+      "name": "The Roost of the Tempest",
+      "type": "Landmark",
+      "description": "The highest and most sacred peak in the Serpent's Coil mountains, revered by the Skyveil people. Perpetually surrounded by a raging, magical thunderstorm, its summit is the nexus of the Storm lineage. To attune, one must brave the 'Trial of the Tempest,' navigating the lethal winds and lightning to prove their mastery of the sky."
+    },
+    {
+      "name": "The Sunken Solarium",
+      "type": "Dungeon",
+      "description": "A beautiful pre-Shattering temple of marble and gold, now partially submerged on the southern coast. It was built by the Draconic Lords of Light to channel and focus pure sunlight. To attune to the Light lineage, one must reactivate its core by solving its light-based puzzles, proving an understanding of light separate from Elysia's doctrine."
+    },
+    {
+      "name": "The Shifting Atoll",
+      "type": "Dungeon",
+      "description": "A series of floating islands hidden within the mists of the Mistwood Vale, held aloft by primal illusion magic. This is the nexus of the Mist lineage. The 'Trial of Perception' requires one to navigate the atoll's powerful mirages and find the stable, central island, a test of mind over matter."
+    },
+    {
+      "name": "The Silverwood Garrison",
+      "type": "Outpost",
+      "description": "The primary military training ground for the Champions of Order. This sprawling, orderly complex of barracks, training yards, and armories is where acolytes are forged into zealous knights. The garrison is a display of military might, but also a place to potentially overhear strategic plans or witness the harsh discipline of the Order."
+    },
+    {
+      "name": "The Sunstone Bridge",
+      "type": "Landmark",
+      "description": "A magnificent, magically reinforced bridge built with gleaming white stone and enchanted sunstone. It spans the great chasm separating the Champions' territory from the rest of the lands. The bridge is a symbol of their engineering prowess and control, heavily patrolled and fortified with watchtowers."
+    },
+    {
+      "name": "The Valley of Penance",
+      "type": "Village",
+      "description": "A settlement at the base of the Grand Cathedral where 'reformed' heretics and those deemed to have chaotic tendencies are sent to live under the watchful eye of the Order. While presented as a peaceful community of redemption, it is effectively a prison town, ruled by fear and strict doctrine.",
+      "key_characters": [
+        {
+          "name": "Warden Tiberius",
+          "char_id": "CHAMPIONS_TIBERius",
+          "description": "The seemingly compassionate but secretly ruthless administrator of the valley. He uses a network of informants to enforce the Order's will and quell any dissent."
+        }
+      ]
+    },
+    {
+      "name": "The Chamber of Purification",
+      "type": "Dungeon",
+      "description": "A hidden and heavily guarded chamber deep beneath the cathedral's public halls of healing. This is where the Champions conduct their darkest rites: the 'purification' of chaotic beings and the draining of draconic artifacts. It is a place of sterile, cold horror, powered by contained relics and forbidden magic."
+    },
+    {
+      "name": "The Sunstone Glade",
+      "type": "Landmark",
+      "description": "A hidden, sacred grove at the heart of the Serpent's Maw Jungle where the canopy opens up to the sky. The glade is filled with unique, bioluminescent flora and centered around an ancient, mossy monolith that hums with pure life energy. It is the sanctuary of the forest spirit Veridia, but the glade's vibrant life is slowly succumbing to a creeping, unnatural blight caused by magical pollution.",
+      "key_characters": [
+        {
+          "name": "Veridia",
+          "char_id": "SPIRIT_VERIDIA",
+          "description": "The ancient guardian of the glade, a powerful forest spirit fighting to save her home from the Arcane Dominion's corruption."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "name": "Nina",
+  "char_id": "WYNDIA_NINA",
+  "type": "Wyndian (Winged Humanoid)",
+  "role": "Swordsmage/Support",
+  "background": "The beloved princess of the floating city of Wyndia. Torn between her royal duties and a desire for a life of adventure, Nina is a skilled duelist who has also inherited her family's innate command over wind magic. She is graceful, determined, and deeply compassionate.",
+  "narrative_hook": "Nina is burdened by the political machinations of the Ember Concord and her father's strict expectations. She joins the party seeking the freedom to forge her own path, but her royal status brings both powerful connections and dangerous political enemies.",
+  "weapon_proficiency": {
+    "favored_types": [
+      "Sword",
+      "Staff"
+    ],
+    "bonus_effect": "+1 to Attack Rolls with favored weapon types.",
+    "penalty_effect": "-2 to Attack Rolls with non-favored weapon types."
+  },
+  "progression_path": {
+    "attribute_priority": [
+      "Agility",
+      "Spirit",
+      "Mind",
+      "Might"
+    ],
+    "skill_priority": [
+      "Diplomacy",
+      "Combat",
+      "Arcana"
+    ],
+    "chosen_playstyle": "Path of the Sky"
+  },
+  "playstyles": [
+    {
+      "path_name": "Path of the Sky",
+      "description": "This path focuses on her flight and wind magic, turning her into a nimble skirmisher who can control the battlefield from above.",
+      "abilities": [
+        {
+          "tier": "Novice (Level 1+)",
+          "talents": [
+            {
+              "name": "Wind's Favor",
+              "effect": "As a bonus action, you grant yourself a gust of wind, increasing your movement speed by 15 feet for your current turn."
+            },
+            {
+              "name": "Tempest Blade",
+              "effect": "A basic, single-target ability that deals 1d10 physical damage and can knock the target back 5 feet."
+            }
+          ]
+        },
+        {
+          "tier": "Adept (Level 5+)",
+          "talents": [
+            {
+              "name": "Wind-Splitter Shot",
+              "effect": "When you make a ranged attack, you can channel the wind to add an extra 1d6 physical damage to your attack roll. This costs 5 Resolve."
+            },
+            {
+              "name": "Aerial Supremacy (Passive)",
+              "effect": "While in the air, your ranged attacks gain a +1 bonus to their attack roll."
+            },
+            {
+              "name": "Soaring Blade (Modifies Tempest Blade)",
+              "effect": "Your Tempest Blade's knockback effect increases from 5 feet to 10 feet."
+            }
+          ]
+        },
+        {
+          "tier": "Expert (Level 10+)",
+          "talents": [
+            {
+              "name": "Cyclone",
+              "effect": "As a major action, you create a 15-foot radius cyclone of howling wind at a point within 60 feet that lasts for 3 rounds. The area is difficult terrain, and all ranged attacks that pass through it have a -2 penalty. This costs 10 Resolve."
+            },
+            {
+              "name": "Storm Gust (Modifies Wind's Favor)",
+              "effect": "When you use Wind's Favor, you can now push one adjacent enemy 10 feet away as part of the movement."
+            }
+          ]
+        },
+        {
+          "tier": "Master (Level 15+)",
+          "talents": [
+            {
+              "name": "Ride the Wind",
+              "effect": "For 1 minute, you can turn your lower body into a vortex of mist, granting you a flying speed of 60 feet and the ability to hover. This costs 15 Resolve."
+            },
+            {
+              "name": "Tempest Barrage",
+              "effect": "As a major action, you unleash a flurry of wind-infused sword strikes on a single target, dealing 2d6 physical damage. This ability can be used once per combat. This costs 15 Resolve."
+            }
+          ]
+        },
+        {
+          "tier": "Archon (Level 20)",
+          "talents": [
+            {
+              "name": "Tornado (Ultimate)",
+              "effect": "As a major action, you summon a swirling tornado that lasts for 3 rounds. As a bonus action on each of your turns, you can move the tornado up to 30 feet. Any creature whose space the tornado enters must make a Might DC 18 check or be picked up, thrown 40 feet in a random direction, and take 5d10 bludgeoning damage. This can only be used once per day and costs 20 Resolve."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path_name": "Path of the Concord",
+      "description": "This path focuses on her leadership and magic for supporting allies.",
+      "abilities": [
+        {
+          "tier": "Novice (Level 1+)",
+          "talents": [
+            {
+              "name": "Royal Edict",
+              "effect": "As a major action, you can issue an inspiring command to an ally within 30 feet. That ally can immediately use their Reaction to move up to 10 feet."
+            },
+            {
+              "name": "Gale Shield",
+              "effect": "As a major action, you create a shield of wind around an ally, granting them a +2 bonus to their defense for one round."
+            }
+          ]
+        },
+        {
+          "tier": "Adept (Level 5+)",
+          "talents": [
+            {
+              "name": "Diplomatic Immunity",
+              "effect": "Once per day, you can use a bonus action to grant an ally a +2 bonus on their next Diplomacy check."
+            },
+            {
+              "name": "Beacon of Hope",
+              "effect": "As a major action, you project a beacon of reassuring light. All allies within a 15-foot radius regain 1d8 Resolve. This costs 5 Resolve."
+            },
+            {
+              "name": "Gale Ward (Modifies Gale Shield)",
+              "effect": "Your Gale Shield now grants a +3 bonus to an ally's defense for one round."
+            }
+          ]
+        },
+        {
+          "tier": "Expert (Level 10+)",
+          "talents": [
+            {
+              "name": "Unwavering Authority (Passive)",
+              "effect": "You have advantage on all Diplomacy checks made to reason with or influence creatures who hold a rank or title (e.g., a city guard, a noble, an officer)."
+            },
+            {
+              "name": "Shield of the Zephyr",
+              "effect": "As a Reaction when you or an ally within 30 feet is hit by an attack, you can create a vortex of wind that reduces the damage taken by 1d10 + your Spirit attribute. This costs 10 Resolve."
+            }
+          ]
+        },
+        {
+          "tier": "Master (Level 15+)",
+          "talents": [
+            {
+              "name": "Mending Current",
+              "effect": "As a major action, you can create a gentle current of air around all allies in a 30-foot radius. All affected allies regain 1d10 Vitality. This costs 15 Resolve."
+            },
+            {
+              "name": "Grand Decree",
+              "effect": "As a major action, you can issue a powerful decree to all allies within 60 feet. For the next 3 rounds, allies gain a +1 bonus to their attack rolls and damage rolls. This costs 15 Resolve."
+            }
+          ]
+        },
+        {
+          "tier": "Archon (Level 20)",
+          "talents": [
+            {
+              "name": "Perfected Leadership (Ultimate)",
+              "effect": "As a major action, you tap into your full potential as a leader. For 3 rounds, you and all allies within 60 feet are granted immunity to the Stunned and Frightened status effects, and your attack rolls can no longer have disadvantage. This can only be used once per day and costs 20 Resolve."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

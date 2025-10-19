@@ -1,0 +1,263 @@
+{
+  "project_name": "Dragon Legacy TTRPG",
+  "version": "2.9.7",
+  "last_updated": "2025-09-01T09:53:37-08:00",
+  "system_core": {
+    "system_info": {
+      "system": "Dragon's Legacy TTRPG",
+      "version": "2.9.7"
+    },
+    "core_mechanics": {
+      "dice": "d10-based",
+      "attributes": [
+        {
+          "name": "Might",
+          "description": "Strength and endurance"
+        },
+        {
+          "name": "Agility",
+          "description": "Speed and precision"
+        },
+        {
+          "name": "Mind",
+          "description": "Intelligence and perception"
+        },
+        {
+          "name": "Spirit",
+          "description": "Charisma and willpower"
+        },
+        {
+          "name": "Essence",
+          "description": "Draconic vitality (hero only)"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Combat",
+          "attribute": "Might",
+          "description": "Used for physical attacks and Might-based defenses."
+        },
+        {
+          "name": "Stealth",
+          "attribute": "Agility",
+          "description": "Used for hiding, moving silently, and remaining unseen."
+        },
+        {
+          "name": "Acrobatics",
+          "attribute": "Agility",
+          "description": "Used for feats of balance, escaping grapples, and complex physical maneuvers."
+        },
+        {
+          "name": "Arcana",
+          "attribute": "Mind",
+          "description": "Used for knowledge of magic, identifying spells, and using magical items."
+        },
+        {
+          "name": "Diplomacy (Persuasion)",
+          "attribute": "Spirit",
+          "description": "Using reason and logic to influence others."
+        },
+        {
+          "name": "Diplomacy (Intimidation)",
+          "attribute": "Might / Spirit",
+          "description": "Using presence and will to coerce or frighten others. Can be based on Might or Spirit."
+        },
+        {
+          "name": "Empathy",
+          "attribute": "Spirit",
+          "description": "A new skill used to sense emotions and read intentions. Key to the Bond Level System with companions."
+        },
+        {
+          "name": "Lore",
+          "attribute": "Mind",
+          "description": "General knowledge of history, cultures, and the world."
+        },
+        {
+          "name": "Athletics",
+          "attribute": "Agility",
+          "description": "Used for feats of raw physical prowess, such as running, jumping, or climbing, and for Agility-based defenses."
+        },
+        {
+          "name": "Survival (General)",
+          "attribute": "Mind",
+          "description": "Used for navigating the wilds, hunting, and foraging."
+        },
+        {
+          "name": "Survival (Terrain Specific)",
+          "attribute": "Mind",
+          "description": "Specialized knowledge of a specific region. Gained through narrative progression or spending an IP."
+        }
+      ],
+      "checks": "1d10 + Attribute + Skill vs. DC. The DC is determined by a six-tier framework (Trivial 8, Easy 10, Moderate 14, Hard 18, Very Hard 23, Almost Impossible 30).",
+      "outcome_thresholds": {
+        "name": "Outcome Thresholds for Skill Checks",
+        "tiers": [
+          {
+            "name": "Critical Success",
+            "condition": "Result beats DC by 6 or more.",
+            "effect": "The action succeeds with an additional benefit."
+          },
+          {
+            "name": "Success",
+            "condition": "Result beats DC by 0 to 5.",
+            "effect": "The action succeeds as intended."
+          },
+          {
+            "name": "Failure",
+            "condition": "Result misses DC by 1 to 5.",
+            "effect": "The action fails without additional consequence."
+          },
+          {
+            "name": "Failure with Consequence",
+            "condition": "Result misses DC by 6 or more.",
+            "effect": "The action fails and a negative consequence occurs."
+          }
+        ]
+      },
+      "resources": {
+        "vitality_formula": "10 + Might × 2",
+        "resolve_formula": "10 + Spirit × 2",
+        "resolve_cost": "Magical abilities and Aspect Abilities have a Resolve cost, typically ranging from 1 (minor) to 10+ (major)."
+      },
+      "legacy_points": {
+        "start": 3,
+        "max": 5,
+        "uses": [
+          "Reroll check",
+          "Enhance Aspect Ability",
+          "Influence narrative",
+          "Activate Draconic Unity",
+          "Legacy Surge (auto-succeed on an Aspect Ability check)"
+        ]
+      },
+      "fishing_minigame": {
+        "name": "Fishing",
+        "description": "A downtime activity to gather resources. Rare fishing spots can be found throughout the world, offering unique catches.",
+        "check": "Mind (Survival)",
+        "sample_catch_table": [
+          {
+            "roll": "1-3",
+            "item": "Minnow",
+            "effect": "A simple bait fish."
+          },
+          {
+            "roll": "4-6",
+            "item": "Azure Trout",
+            "effect": "Restores 1d6 Vitality when cooked."
+          },
+          {
+            "roll": "7-8",
+            "item": "Whiskerfish",
+            "effect": "Sells for 25 Zenny."
+          },
+          {
+            "roll": "9",
+            "item": "Man-o'-War",
+            "effect": "A rare, aggressive fish used in alchemy."
+          },
+          {
+            "roll": "10",
+            "item": "Waterlogged Chest",
+            "effect": "Contains a random common magic item or other treasure."
+          }
+        ]
+      }
+    },
+    "character_creation": {
+      "hero": {
+        "attributes": "13 points, max 5 per attribute, essence automatically set to 3 at onset",
+        "skills": "10 points, max 4 per skill",
+        "starting_aspects": "Choose 1 innate Aspect when Rya's power awakens in the prologue.",
+        "starting_gear": [
+          "Adventurer’s kit"
+         ]
+      },
+      "companion": {
+        "attributes": "12 points, max 5 per attribute",
+        "skills": "10 points, max 4 per skill",
+        "starting_abilities": "Choose ONE ability from the companion's chosen playstyle's 'Novice' tier.",
+        "build_guidance": "Use the 'attribute_priority' and 'skill_priority' lists in each companion's character file to guide point allocation."
+      }
+    },
+    "progression": {
+      "currency": "Insight Points (IP)",
+      "leveling_rule": "A character gains a level for every 6 Insight Points spent.",
+      "leveling_benefits": [
+        "Upon gaining a level, a character's maximum vitality increases by 5 points.",
+        "Upon gaining a level, a character's maximum Resolve increases by 5 points."
+      ],
+      "attribute_cap_rule": "A character's maximum score in any single attribute cannot exceed 4 + (Character Level / 2, rounded down). This does not apply during initial character creation.",
+      "threat_level_ip_awards": {
+        "description": "IP is awarded based on the threat level of the overcome challenge.",
+        "tiers": [
+          {
+            "level": "Minor Threat",
+            "ip_reward": 0
+          },
+          {
+            "level": "Standard Threat",
+            "ip_reward": 1
+          },
+          {
+            "level": "Major Threat",
+            "ip_reward": 2
+          },
+          {
+            "level": "Crucial Milestone",
+            "ip_reward": 3
+          }
+        ]
+      },
+      "spending_options": [
+        {
+          "name": "Skill Mastery",
+          "cost": 1,
+          "effect": "Increase any one skill by +1."
+        },
+        {
+          "name": "Attribute Boost",
+          "cost": 2,
+          "effect": "Increase any one attribute by +1."
+        },
+        {
+          "name": "Newfound Talent",
+          "cost": 2,
+          "effect": "Learn a new talent from the talent list."
+        },
+        {
+          "name": "Learn Aspect Ability",
+          "cost": 3,
+          "effect": "Learn a new ability from an unlocked Aspect."
+        }
+      ],
+      "bond_level_system": {
+        "description": "Bonds are forged through actions, unlocking benefits at each level.",
+        "earning_bp": [
+          "Completing a companion's personal quest (+3 BP)",
+          "Key dialogue alignment (+1 BP)",
+          "Team-up maneuver in major combat (+1 BP)"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "title": "Ally",
+            "bp_required": 0,
+            "benefit": "Starting level."
+          },
+          {
+            "level": 2,
+            "title": "Trusted Friend",
+            "bp_required": 10,
+            "benefit": "Unlocks a unique passive Bond Synergy."
+          },
+          {
+            "level": 3,
+            "title": "Confidant",
+            "bp_required": 30,
+            "benefit": "Unlocks the ability to use Draconic Unity."
+          }
+        ]
+      }
+    }
+  }
+}

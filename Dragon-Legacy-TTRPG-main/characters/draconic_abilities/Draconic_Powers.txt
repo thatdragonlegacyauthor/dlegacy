@@ -1,0 +1,97 @@
+{
+  "draconic_powers": {
+    "aspect_mastery_system": {
+      "description": "A three-step process for gaining control over Aspect Abilities.",
+      "steps": [
+        {
+          "step": 1,
+          "name": "Attuned",
+          "description": "The initial state when an ability is learned."
+        },
+        {
+          "step": 2,
+          "name": "Awakened",
+          "description": "After 3 successful uses, the ability's DC is reduced by 1."
+        },
+        {
+          "step": 3,
+          "name": "Mastered",
+          "description": "After 10 successful uses of an Awakened ability, its Bloodburn penalty is halved (a -2 penalty becomes -1)."
+        }
+      ]
+    },
+    "draconic_progression": {
+      "description": "The hero's personal journey of mastering their inner draconic power.",
+      "tier_1": {
+        "name": "Aspect Awakening",
+        "unlock": "Unlocked via significant narrative story beats."
+      },
+      "tier_2": {
+        "name": "Primal Whelp",
+        "unlock": "Master two Aspect Abilities from a single lineage."
+      },
+      "tier_3": {
+        "name": "Drake Manifestation",
+        "unlock": "Master four Aspect Abilities from a single lineage."
+      },
+      "tier_4": {
+        "name": "Wyrm Manifestation",
+        "unlock": "Master six Aspect Abilities from a single lineage."
+      },
+      "tier_5": {
+        "name": "Kaiser Manifestation",
+        "unlock": "Unlock the Wyrm Manifestation and use Draconic Unity with three companions."
+      }
+    },
+    "primal_whelp": {
+      "cost": "1 Legacy Point",
+      "duration": "3 rounds",
+      "effect": "Transform into a small dragon whelp, gain +1 to Might and Essence, and gain a simple breath weapon (e.g., 'Ember Spit' for Fire, deals 1d10 damage).",
+      "consequence": "Suffer 'Whelp Strain' (-1 to all attribute checks for 1 round) when it ends."
+    },
+    "drake_manifestation": {
+      "cost": "1 Legacy Point",
+      "duration": "3 rounds",
+      "effect": "Transform into an adolescent drake, gain +2 to a primary lineage Attribute (Might/Essence) and +1 to Agility. Unlocks an empowered breath weapon (e.g., 'Blazing Breath' for Fire, deals 2d8 damage).",
+      "consequence": "Suffer 'Drake Strain' (-2 to all attribute checks for 1 round) when it ends."
+    },
+    "wyrm_manifestation": {
+      "cost": "2 Legacy Points",
+      "duration": "3 rounds",
+      "effect": "Transform into a true dragon, gain +3 to a primary lineage Attribute (Might/Essence) and +2 to Agility. Unlocks a powerful breath weapon (e.g., 'Dragon's Inferno' for Fire, deals 3d10 damage).",
+      "consequence": "Suffer 'Wyrm Strain' (-3 to all attribute checks for 1 round) when it ends."
+    },
+    "kaiser_manifestation": {
+      "cost": "3 Legacy Points",
+      "duration": "3 rounds",
+      "effect": "Transform into a perfect draconic humanoid, gain +2 to all Attributes, and unlock an ultimate ability (e.g., 'Inferno Overdrive' for Fire, deals 4d10 damage).",
+      "consequence": "Suffer 'Kaiser Strain' (-4 to all attribute checks for 1 round) when it ends."
+    },
+    "draconic_unity": {
+      "description": "A parallel system of power based on bonds. The hero fuses with a companion.",
+      "requirement": "Bond Level 3 with a companion.",
+      "cost": "1 Legacy Point",
+      "duration": "3 rounds",
+      "consequence": "Both hero and companion suffer 'Fusion Strain' (-2 to all attributes for 1 round) when it ends.",
+      "fusion_forms": [
+        {
+          "partner": "Selra",
+          "form_name": "Valkyrie Form",
+          "ability": {
+            "name": "Divine Breath",
+            "effect": "15-ft cone, deals 2d8 holy damage to enemies and heals allies for 1d10 Vitality."
+          }
+        },
+        {
+          "partner": "Zael",
+          "form_name": "Wraith Form",
+          "ability": {
+            "name": "Void Gale",
+            "effect": "Deals 1d10 necrotic damage to a target and forces a Mind DC 13 check or their next successful action deals half damage."
+          }
+        }
+      ]
+    },
+    "lineages_directory": "draconic_abilities/"
+  }
+}

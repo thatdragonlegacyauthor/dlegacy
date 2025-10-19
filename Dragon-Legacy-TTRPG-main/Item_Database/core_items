@@ -1,0 +1,421 @@
+{
+  "core_items": {
+    "mundane": {
+      "weapons": [
+        {
+          "name": "Dagger",
+          "damage_die": "1d6",
+          "properties": [
+            "Finesse",
+            "Light"
+          ]
+        },
+        {
+          "name": "Sword",
+          "damage_die": "1d8",
+          "properties": [
+            "Versatile"
+          ]
+        },
+        {
+          "name": "Greatsword",
+          "damage_die": "1d12",
+          "properties": [
+            "Two-Handed",
+            "Heavy"
+          ]
+        },
+        {
+          "name": "Longbow",
+          "damage_die": "1d8",
+          "properties": [
+            "Ranged (150/600)",
+            "Ammunition",
+            "Heavy"
+          ]
+        },
+        {
+          "name": "Spear",
+          "damage_die": "1d8",
+          "properties": [
+            "Reach",
+            "Versatile"
+          ],
+          "description": "A versatile weapon with a long reach."
+        },
+        {
+          "name": "Boomerang",
+          "damage_die": "1d6",
+          "properties": [
+            "Ranged (30/90)",
+            "Returning"
+          ],
+          "description": "A ranged weapon that returns to the wielder's hand."
+        },
+        {
+          "name": "Heavy Club",
+          "damage_die": "1d10",
+          "properties": [
+            "Two-Handed",
+            "Heavy"
+          ],
+          "description": "A simple, two-handed bludgeoning weapon."
+        },
+        {
+          "name": "Warhammer",
+          "damage_die": "1d12",
+          "properties": [
+            "Two-Handed",
+            "Heavy"
+          ],
+          "description": "A heavy, two-handed bludgeoning weapon."
+        },
+        {
+          "name": "Sling",
+          "damage_die": "1d4",
+          "properties": [
+            "Ranged (30/120)",
+            "Ammunition",
+            "Light"
+          ],
+          "description": "A simple ranged weapon that hurls small stones."
+        },
+        {
+          "name": "Shortbow",
+          "damage_die": "1d6",
+          "properties": [
+            "Ranged (80/320)",
+            "Ammunition",
+            "Two-Handed"
+          ],
+          "description": "A smaller, lighter bow."
+        },
+        {
+          "name": "Crossbow",
+          "damage_die": "1d8",
+          "properties": [
+            "Ranged (100/400)",
+            "Ammunition",
+            "Two-Handed",
+            "Loading"
+          ],
+          "description": "A powerful two-handed ranged weapon with a powerful string."
+        },
+        {
+          "name": "Composite Bow",
+          "damage_die": "1d10",
+          "properties": [
+            "Ranged (150/600)",
+            "Ammunition",
+            "Heavy"
+          ],
+          "description": "A powerful bow made of wood and horn."
+        },
+        {
+          "name": "Gauntlets",
+          "damage_die": "1d6",
+          "properties": [
+            "Brawling"
+          ],
+          "description": "A set of heavy, metal gloves for melee combat."
+        },
+        {
+          "name": "Whip",
+          "damage_die": "1d6",
+          "properties": [
+            "Finesse",
+            "Reach"
+          ],
+          "description": "A long leather whip that can strike foes from a short distance."
+        },
+        {
+          "name": "Battle Rings",
+          "damage_die": "1d4",
+          "properties": [
+            "Finesse",
+            "Light"
+          ],
+          "description": "A set of reinforced metal rings worn on the knuckles, used for swift, precise strikes."
+        }
+      ],
+      "armor": [
+        {
+          "name": "Leather Armor",
+          "type": "Light Armor",
+          "damage_reduction": 2
+        },
+        {
+          "name": "Chain Mail",
+          "type": "Heavy Armor",
+          "damage_reduction": 4
+        },
+        {
+          "name": "Gambeson",
+          "type": "Light Armor",
+          "damage_reduction": 1,
+          "description": "Padded cloth armor."
+        },
+        {
+          "name": "Studded Leather Armor",
+          "type": "Medium Armor",
+          "damage_reduction": 3,
+          "description": "Light armor reinforced with metal studs."
+        },
+        {
+          "name": "Ring Mail",
+          "type": "Heavy Armor",
+          "damage_reduction": 4,
+          "description": "A leather coat sewn with small metal rings."
+        },
+        {
+          "name": "Scale Mail",
+          "type": "Heavy Armor",
+          "damage_reduction": 5,
+          "description": "A suit of overlapping metal scales."
+        },
+        {
+          "name": "Full Plate Armor",
+          "type": "Heavy Armor",
+          "damage_reduction": 8,
+          "description": "The heaviest and most protective armor available."
+        }
+      ],
+      "shields": [
+        {
+          "name": "Shield",
+          "effect": "Grants a +1 bonus to defensive checks against physical attacks."
+        },
+        {
+          "name": "Heavy Shield",
+          "effect": "Grants a +2 bonus to your Defense Roll when taking the Defend action.",
+          "description": "A large, sturdy shield."
+        }
+      ],
+      "adventuring_gear": [
+        {
+          "name": "Backpack",
+          "description": "A simple pack to carry supplies."
+        },
+        {
+          "name": "Rope (50 ft.)",
+          "description": "A length of sturdy hemp rope."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Healing Salve",
+          "effect": "As a major action, restores 2d6 Vitality."
+        },
+        {
+          "name": "Smoke Bomb",
+          "effect": "As a major action, creates a 15-ft cube of concealing smoke."
+        },
+        {
+          "name": "Elderwood Poultice",
+          "type": "Consumable",
+          "description": "A thick, earthy paste that grants a temporary +2 to physical and magical resistance for one round. It is created from the leaves of ancient Elderwood trees.",
+          "effect": "+2 to physical and magical resistance for 1 round."
+        },
+        {
+          "name": "Herbal Poultice",
+          "effect": "Restores 1d6 Vitality as a bonus action.",
+          "description": "A quick, minor herbal poultice for a fast heal."
+        },
+        {
+          "name": "Bandages",
+          "effect": "Stabilizes a Downed creature as a major action.",
+          "description": "A roll of clean cloth for first aid."
+        },
+        {
+          "name": "Smelling Salts",
+          "effect": "Revives a Stable or Downed creature to 1 Vitality.",
+          "description": "A small container of pungent salts."
+        }
+      ]
+    },
+    "magical": {
+      "weapons": [
+        {
+          "name": "Gooey Orb",
+          "type": "Improvised Weapon",
+          "rarity": "Common",
+          "description": "A small, transparent orb found inside a defeated Goo Ball.",
+          "effect": "Can be thrown as an improvised weapon, dealing 1d4 physical damage."
+        },
+        {
+          "name": "Woven Sapling Staff",
+          "type": "Staff",
+          "rarity": "Common",
+          "description": "A simple wooden staff crafted by the people of Tanglewood Reach.",
+          "effect": "When holding, gain a +1 bonus to Mind (Survival) checks while in a forest."
+        },
+        {
+          "name": "Wyndian Quill Bow",
+          "type": "Bow",
+          "rarity": "Rare",
+          "description": "A finely crafted bow made with Wyndian feathers, rumored to hum with wind magic.",
+          "effect": "Deals an additional 1d4 lightning damage with each arrow."
+        },
+        {
+          "name": "Crystal Shard Blade",
+          "type": "Dagger",
+          "rarity": "Rare",
+          "description": "A dagger made from a shard of the pulsating Crystal Spire.",
+          "effect": "Deals 1d6 damage. Once per day, it can be infused with power to deal an additional 1d8 lightning damage."
+        },
+        {
+          "name": "Void-Kissed Blade",
+          "type": "Sword",
+          "rarity": "Rare",
+          "description": "A dark, obsidian blade imbued with Void energy.",
+          "effect": "Deals 1d8 necrotic damage. On a critical hit, the target's next roll is reduced by 2."
+        },
+        {
+          "name": "Earth-Wrought Blade",
+          "type": "Greatsword",
+          "rarity": "Rare",
+          "description": "A heavy, two-handed sword with a blade of blackened steel and swirling crystalline veins that pulse with a faint, earthen light.",
+          "effect": "Deals 1d12 physical damage. When wielding this weapon, you gain a +1 bonus to all Might checks. Once per combat, you can channel your Earth lineage through the blade to deal an additional 1d8 physical damage."
+        },
+        {
+          "name": "Stormvine Whip",
+          "type": "Whip",
+          "rarity": "Rare",
+          "description": "A living whip braided from storm-infused vines. It crackles with contained lightning and occasionally twitches on its own.",
+          "effect": "This magical whip deals 1d6 physical and 1d4 lightning damage. It has the Finesse and Reach properties. On a critical hit, the vines instinctively lash out, forcing the target to make a Might DC 13 check or become 'Restrained' for 1 round."
+        },
+        {
+          "name": "Grasping Ivy",
+          "type": "Whip",
+          "rarity": "Rare",
+          "description": "A legendary whip said to be grown from a cutting of the Gloomwood Heart after its purification. It seems to command other plant life.",
+          "effect": "This magical whip deals 1d8 physical damage. Its Reach property is extended to 15 feet. Once per combat, the wielder can use this whip to cast the 'Ensnaring Vines' ability without spending Resolve."
+        }
+      ],
+      "armor": [
+        {
+          "name": "Stone-Skin Vest",
+          "type": "Light Armor",
+          "rarity": "Rare",
+          "description": "A leather tunic reinforced with plates of rock from the Scalebound Clans' territory.",
+          "effect": "Grants +1 to Might and a +2 bonus to Vitality."
+        },
+        {
+          "name": "The Ember-Scale Armor",
+          "type": "Heavy Armor",
+          "rarity": "Mystic",
+          "description": "A powerful set of armor forged from the scales of a Cinder-Scale Tyrant.",
+          "effect": "The wearer is immune to fire damage and gains a +3 bonus to their Vitality."
+        }
+      ],
+      "shields": [
+        {
+          "name": "Stone-Forged Aegis",
+          "type": "Shield",
+          "rarity": "Rare",
+          "description": "A shield of pure mountain stone, imbued with a ward of divine light from the Goddess Elysia.",
+          "effect": "Grants a +2 bonus to all Spirit checks. Provides resistance to all magical damage."
+        }
+      ],
+      "foci": [
+        {
+          "name": "Channeler's Ring",
+          "type": "Magical Focus (Ring)",
+          "rarity": "Common",
+          "description": "A simple copper ring that hums with a faint energy, allowing the wearer to shape their spirit into a minor offensive bolt.",
+          "effect": "When equipped, allows the wielder to use their Attack action to cast 'Spirit Bolt'. (Cantrip: Deals 1d6 light damage. Uses Spirit for the attack roll)."
+        },
+        {
+          "name": "Mindstone Ring",
+          "type": "Magical Focus (Ring)",
+          "rarity": "Common",
+          "description": "A smooth, grey stone set in a simple iron band. It seems to sharpen the wearer's thoughts.",
+          "effect": "Grants a +1 bonus to the Mind attribute. Does not grant an attack cantrip."
+        },
+        {
+          "name": "Ring of Fateful Whispers",
+          "type": "Magical Focus (Ring)",
+          "rarity": "Rare",
+          "description": "A simple, unadorned band of aged silver that feels cold to the touch. It seems to amplify the ghostly voices that guide Eldra's sight.",
+          "effect": "This ring allows the wielder to cast 'Spirit Bolt', which deals psychic damage instead of light. When an enemy is damaged by this ring's 'Spirit Bolt', Eldra can use her bonus action to impose a -1 penalty on that creature's next roll."
+        },
+        {
+          "name": "Band of the Ethereal",
+          "type": "Magical Focus (Ring)",
+          "rarity": "Rare",
+          "description": "This ring appears to be crafted from solid, swirling mist. It grants the wearer a stronger connection to their spectral form.",
+          "effect": "This ring allows the wielder to cast 'Spirit Bolt', which deals cold damage instead of light. Once per combat, the wielder can use their 'Incorporeal Phase' ability without expending their Reaction for the round."
+        },
+        {
+          "name": "Ring of Embers",
+          "type": "Magical Focus (Ring)",
+          "rarity": "Rare",
+          "description": "A ring of blackened steel that is always warm to the touch. It contains a mote of draconic fire.",
+          "effect": "Allows the wielder to cast 'Ember Bolt' (Cantrip: Deals 1d6 fire damage. Uses Spirit for the attack roll). If the target is already 'Burning', this deals an additional 1d4 fire damage."
+        },
+        {
+          "name": "Oracle's Gyre",
+          "type": "Magical Focus (Ring)",
+          "rarity": "Mystic",
+          "description": "A spiraling ring of petrified wood and silver that seems to pull in the surrounding light. It is said to contain echoes of every prophecy, past and future, and grants the wearer a moment of absolute clarity over the threads of fate.",
+          "effect": "Grants a passive +2 bonus to the Spirit attribute. Once per day, as a major action, you can target one enemy. For the next 3 rounds, that enemy has Disadvantage on all rolls they make. This ring also allows the wielder to cast 'Spirit Bolt'."
+        },
+        {
+          "name": "Heart of the Mists",
+          "type": "Magical Focus (Ring)",
+          "rarity": "Mystic",
+          "description": "A smooth, translucent ring that appears to hold a perpetually swirling, miniature fog within it. It feels weightless and allows the wearer to become one with the ethereal mists.",
+          "effect": "Grants a passive +2 bonus to the Agility attribute. Once per day, as a major action, you can cast 'Disorienting Fog' with an increased radius of 30 feet. While you are inside this fog, you can use 'Misty Step' as a bonus action without spending Resolve. This ring also allows the wielder to cast 'Spirit Bolt'."
+        }
+      ],
+      "schematics": [
+        {
+          "name": "Schematic: Arc-Cannon",
+          "type": "Runic Schematic",
+          "rarity": "Rare",
+          "description": "A Pre-Shattering schematic etched on a thin sheet of metal, detailing the design for a ranged energy weapon powered by a golem's own core.",
+          "effect": "This item can be integrated into Rune's chassis during a long rest. Doing so permanently unlocks the 'Arc-Cannon' Armament Configuration. Configuration Details --- Name: Arc-Cannon; Damage Die: 2d8; Properties: Ranged (60/120), Lightning; Description: Rune's arm reconfigures into a cannon that launches bolts of raw arcane lightning."
+        },
+        {
+          "name": "Schematic: Aegis Armature",
+          "type": "Runic Schematic",
+          "rarity": "Rare",
+          "description": "A schematic detailing how to reconfigure a golem's forearm plating into an expandable, interlocking shield capable of absorbing massive impacts.",
+          "effect": "This item can be integrated into Rune's chassis during a long rest. Doing so permanently unlocks the 'Aegis Armature' Armament Configuration. Configuration Details --- Name: Aegis Armature; Type: Defensive Configuration; Properties: Shield, Heavy; Description: Rune's arm transforms into a large, heavy shield. While this configuration is active, he cannot attack with that arm, but gains a +2 bonus to all defensive rolls."
+        },
+        {
+          "name": "Schematic: Harpoon Launcher",
+          "type": "Runic Schematic",
+          "rarity": "Rare",
+          "description": "A complex design for a pneumatically-launched grappling harpoon with a high-tensile internal cable, meant for immobilizing large targets.",
+          "effect": "This item can be integrated into Rune's chassis during a long rest. Doing so permanently unlocks the 'Harpoon Launcher' Armament Configuration. Configuration Details --- Name: Harpoon Launcher; Damage Die: 1d6; Properties: Ranged (30/60), Grapple; Description: Rune's arm transforms into a launcher that fires a tethered harpoon. On a successful hit, the target takes damage and must make a Might DC 14 check or become 'Restrained'."
+        },
+        {
+          "name": "Schematic: Seismic Gauntlet",
+          "type": "Runic Schematic",
+          "rarity": "Mystic",
+          "description": "A masterwork design for a heavy gauntlet containing a potent kinetic resonator. When slammed into the ground, it can generate a localized shockwave.",
+          "effect": "This item can be integrated into Rune's chassis during a long rest. Doing so permanently unlocks the 'Seismic Gauntlet' Armament Configuration. Configuration Details --- Name: Seismic Gauntlet; Damage Die: 2d6; Properties: Bludgeoning, Concussive; Description: Rune's fist becomes encased in a massive, piston-driven gauntlet. Instead of attacking a single target, he can use his Attack action to strike the ground, dealing 2d6 physical damage to all enemies in a 15-foot cone. Creatures hit must also make a Might DC 15 check or be knocked prone."
+        }
+      ],
+      "accessories": [
+        {
+          "name": "Tattered Map of the Azure Steppes",
+          "type": "Miscellaneous",
+          "rarity": "Common",
+          "description": "An old, worn map of the plains.",
+          "effect": "Grants advantage on one Mind (Survival) or Mind (Lore) check related to navigation on the Azure Steppes."
+        }
+      ],
+      "consumables": [
+        {
+          "name": "Sun-Kissed Petal",
+          "type": "Consumable",
+          "rarity": "Common",
+          "description": "A rare flower from the Azure Steppes.",
+          "effect": "Restores 1d4 Resolve when used."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "name": "Zykar",
+  "char_id": "RUNEFORGE_ZYKAR",
+  "type": "Soul-bound construct",
+  "role": "Tank/Soul Engine",
+  "background": "A construct with a human soul, crafted in a secret lab beneath the Arcane Dominion's Crystal Spire. He escaped and now seeks to understand the soul within him.",
+  "narrative_hook": "Dominion hunters pursue Zykar relentlessly. The fragmented memories of the soul within him contain clues about the Shattering.",
+  "weapon_proficiency": {
+    "favored_types": [
+      "Greatsword",
+      "Gauntlets"
+    ],
+    "bonus_effect": "+1 to Attack Rolls with favored weapon types.",
+    "penalty_effect": "-2 to Attack Rolls with non-favored weapon types."
+  },
+  "progression_path": {
+    "attribute_priority": [
+      "Might",
+      "Mind",
+      "Spirit",
+      "Agility"
+    ],
+    "skill_priority": [
+      "Combat",
+      "Arcana",
+      "Athletics"
+    ],
+    "chosen_playstyle": "Path of the Aegis Warden"
+  },
+  "progression_type": "Static",
+  "playstyles": [
+    {
+      "path_name": "Path of the Aegis Warden",
+      "description": "This path refines the 'Tank' role to be less about being a static wall and more about active, tactical protection. His Dominion design was likely for a bodyguard, meant to intercept threats with brutal efficiency rather than just soak them up.",
+      "abilities": [
+        {
+          "tier": "Novice (Level 1+)",
+          "talents": [
+            {
+              "name": "Aegis Protocol (Reaction)",
+              "effect": "When an ally is hit by an attack that deals elemental damage, you can grant them resistance to that damage type for that one attack."
+            },
+            {
+              "name": "Intercession Protocol",
+              "effect": "As a bonus action, you can 'mark' one ally for 1 round. The next time that ally is targeted by an attack, the attack targets you instead."
+            },
+            {
+              "name": "Rune Crash",
+              "effect": "A powerful melee attack dealing 2d10 physical damage."
+            }
+          ]
+        },
+        {
+          "tier": "Adept (Level 5+)",
+          "talents": [
+            {
+              "name": "Kinetic Redirection",
+              "effect": "When you are hit by a melee attack, you can use your Reaction to absorb part of the blow. Your next successful melee attack deals an additional 1d10 physical damage and the target must make a Might DC 13 check or be knocked prone. This costs 5 Resolve."
+            },
+            {
+              "name": "Adamant Plating (Passive)",
+              "effect": "Your chassis is exceptionally durable. You gain a permanent +1 bonus to your Damage Reduction."
+            }
+          ]
+        },
+        {
+          "tier": "Expert (Level 10+)",
+          "talents": [
+            {
+              "name": "Containment Field",
+              "effect": "As a major action, project a shimmering field of energy around a creature within 30 feet for 3 rounds. If targeting an ally, they gain a +2 bonus to their defensive rolls. If targeting an enemy, their movement speed is halved. This costs 10 Resolve."
+            },
+            {
+              "name": "Overload Protocol",
+              "effect": "As a bonus action, you can divert power to your servos, gaining a +2 bonus to Might for 3 rounds. When this effect ends, you suffer 'System Strain' (-2 to all attribute checks for 1 round). This costs 10 Resolve."
+            }
+          ]
+        },
+        {
+          "tier": "Master (Level 15+)",
+          "talents": [
+            {
+              "name": "Bastion Mode",
+              "effect": "As a major action, you can root yourself to the spot, reducing your movement to 0. For 3 rounds, you project a 10-foot aura that grants adjacent allies a +2 bonus to their Damage Reduction."
+            },
+            {
+              "name": "Final Guard (Reaction)",
+              "effect": "Once per day, when an attack would reduce you to 0 Vitality, you can choose to be reduced to 1 Vitality instead."
+            }
+          ]
+        },
+        {
+          "tier": "Archon (Level 20)",
+          "talents": [
+            {
+              "name": "Sacrifice Protocol (Ultimate)",
+              "effect": "As a major action, you designate yourself as the sole target for all enemies for 1 round. You absorb all damage taken during this round into your core. On your next turn, you can unleash the stored energy as a beam, dealing total damage equal to the amount absorbed to a single target. This can only be used once per day and costs 20 Resolve."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path_name": "Path of the Soul Engine",
+      "description": "This path is entirely new. It focuses on Zykar using the trapped human soul as a volatile and dangerous power source. This path is riskier, focusing on psychic/necrotic damage and battlefield control by weaponizing the very essence of his being.",
+      "abilities": [
+        {
+          "tier": "Novice (Level 1+)",
+          "talents": [
+            {
+              "name": "Soul Pulse",
+              "effect": "Channel your inner will. Gain Advantage on Mind checks made to resist fear and illusion effects."
+            },
+            {
+              "name": "Soul Burn",
+              "effect": "As a major action, make a melee attack that deals 1d8 necrotic damage. The target must make a Spirit DC 12 check or have their Resolve reduced by 1d6."
+            }
+          ]
+        },
+        {
+          "tier": "Adept (Level 5+)",
+          "talents": [
+            {
+              "name": "Ectoplasmic Chains",
+              "effect": "As a major action, you lash out with tendrils of spiritual energy at a target within 30 feet. They must make an Agility DC 13 check or become 'Restrained' for up to 3 rounds. The target can use its action to attempt to break free. This costs 5 Resolve."
+            },
+            {
+              "name": "Psychic Static (Passive)",
+              "effect": "Your tormented soul leaks a constant stream of psychic noise. Enemies within 5 feet of you have a -1 penalty on all Mind and Spirit checks."
+            }
+          ]
+        },
+        {
+          "tier": "Expert (Level 10+)",
+          "talents": [
+            {
+              "name": "Volatile Vent",
+              "effect": "As a major action, you vent raw soul energy from your core. You take 1d6 irreducible damage, and all enemies within a 10-foot radius take 3d8 necrotic damage. This costs 10 Resolve."
+            },
+            {
+              "name": "Phantom Pain",
+              "effect": "You project your own suffering into the mind of a target. The target takes 2d10 psychic damage and has disadvantage on their next attack roll. This costs 10 Resolve."
+            }
+          ]
+        },
+        {
+          "tier": "Master (Level 15+)",
+          "talents": [
+            {
+              "name": "Reclaim Essence (Reaction)",
+              "effect": "When a non-construct enemy dies within 30 feet of you, you can use your Reaction to draw in a fragment of its departing spirit, restoring 2d8 of your own Vitality."
+            },
+            {
+              "name": "Weight of Conscience",
+              "effect": "As a major action, you force an enemy to confront the weight of their actions. They must make a Spirit DC 16 check or become 'Stunned' for 1 round as they are paralyzed by visions. This costs 15 Resolve."
+            }
+          ]
+        },
+        {
+          "tier": "Archon (Level 20)",
+          "talents": [
+            {
+              "name": "Soul Detonation (Ultimate)",
+              "effect": "You overclock your soul core to its absolute limit. As a major action, you unleash a massive explosion of necrotic energy in a 30-foot radius. It deals 8d12 necrotic damage to all enemies. However, the strain shatters your systems, causing you to take 4d12 irreducible damage and become 'Stunned' for 1 round. This can only be used once per day and costs 20 Resolve."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

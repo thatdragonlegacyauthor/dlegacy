@@ -1,0 +1,397 @@
+{
+  "world_map": {
+    "points_of_interest": [
+      {
+        "id": "WINDMARK_VILLAGE",
+        "name": "Windmark Village",
+        "region": "The Azure Steppes",
+        "type": "Village",
+        "connections": [
+          {
+            "target_id": "WHISPERING_WOODS_ENTRANCE",
+            "travel_days": 2,
+            "terrain": "Forest Edge",
+            "is_hidden": false
+          },
+          {
+            "target_id": "PORT_MYRIA",
+            "travel_days": 4,
+            "terrain": "Coastal Plains",
+            "is_hidden": false
+          },
+          {
+            "target_id": "WELL_OF_SOULS",
+            "travel_days": 1,
+            "terrain": "Plains",
+            "is_hidden": true
+          }
+        ]
+      },
+      {
+        "id": "WELL_OF_SOULS",
+        "name": "The Well of Souls",
+        "region": "The Azure Steppes",
+        "type": "Landmark",
+        "connections": [
+          {
+            "target_id": "WINDMARK_VILLAGE",
+            "travel_days": 1,
+            "terrain": "Plains",
+            "is_hidden": true
+          }
+        ]
+      },
+      {
+        "id": "WHISPERING_WOODS_ENTRANCE",
+        "name": "Whispering Woods Entrance",
+        "region": "The Whispering Woods",
+        "type": "Landmark",
+        "connections": [
+          {
+            "target_id": "WINDMARK_VILLAGE",
+            "travel_days": 2,
+            "terrain": "Forest Edge",
+            "is_hidden": false
+          },
+          {
+            "target_id": "TANGLEWOOD_REACH",
+            "travel_days": 3,
+            "terrain": "Deep Woods",
+            "is_hidden": false
+          },
+          {
+            "target_id": "HAVENWOOD",
+            "travel_days": 1,
+            "terrain": "Forest Path",
+            "is_hidden": false
+          }
+        ]
+      },
+      {
+        "id": "TANGLEWOOD_REACH",
+        "name": "Tanglewood Reach",
+        "region": "The Whispering Woods",
+        "type": "Village",
+        "connections": [
+          {
+            "target_id": "WHISPERING_WOODS_ENTRANCE",
+            "travel_days": 3,
+            "terrain": "Deep Woods",
+            "is_hidden": false
+          }
+        ]
+      },
+      {
+        "id": "HAVENWOOD",
+        "name": "Havenwood",
+        "region": "The Whispering Woods",
+        "type": "Village",
+        "connections": [
+          {
+            "target_id": "WHISPERING_WOODS_ENTRANCE",
+            "travel_days": 1,
+            "terrain": "Forest Path",
+            "is_hidden": false
+          }
+        ]
+      },
+      {
+        "id": "PORT_MYRIA",
+        "name": "Port Myria",
+        "region": "Ember Concord",
+        "type": "Town",
+        "connections": [
+          {
+            "target_id": "WINDMARK_VILLAGE",
+            "travel_days": 4,
+            "terrain": "Coastal Plains",
+            "is_hidden": false
+          },
+          {
+            "target_id": "WYNDIA",
+            "travel_days": 7,
+            "terrain": "Mountain Road",
+            "is_hidden": false
+          },
+          {
+            "target_id": "TIDEWATCH_SPIRE",
+            "travel_days": 3,
+            "terrain": "Coastal Mists",
+            "is_hidden": false
+          }
+        ]
+      },
+      {
+        "id": "WYNDIA",
+        "name": "Wyndia",
+        "region": "Ember Concord",
+        "type": "City-State",
+        "connections": [
+          {
+            "target_id": "PORT_MYRIA",
+            "travel_days": 7,
+            "terrain": "Mountain Road",
+            "is_hidden": false
+          },
+          {
+            "target_id": "STONEGARD",
+            "travel_days": 5,
+            "terrain": "High Pass",
+            "is_hidden": false
+          },
+          {
+            "target_id": "SKY_REACH_AERIE",
+            "travel_days": 6,
+            "terrain": "Sheer Mountains",
+            "is_hidden": false
+          }
+        ]
+      },
+      {
+        "id": "STONEGARD",
+        "name": "Stonegard",
+        "region": "Scalebound Clans Territory",
+        "type": "Fortress Town",
+        "connections": [
+          {
+            "target_id": "WYNDIA",
+            "travel_days": 5,
+            "terrain": "High Pass",
+            "is_hidden": false
+          },
+          {
+            "target_id": "STONEKIN_OUTPOST",
+            "travel_days": 2,
+            "terrain": "Mountain Pass",
+            "is_hidden": false
+          },
+          {
+            "target_id": "DRAGONS_GRAVEYARD",
+            "travel_days": 4,
+            "terrain": "Sacred Valley",
+            "is_hidden": true
+          }
+        ]
+      },
+      {
+        "id": "STONEKIN_OUTPOST",
+        "name": "Stonekin Outpost",
+        "region": "Scalebound Clans Territory",
+        "type": "Outpost",
+        "connections": [
+          {
+            "target_id": "STONEGARD",
+            "travel_days": 2,
+            "terrain": "Mountain Pass",
+            "is_hidden": false
+          }
+        ]
+      },
+      {
+        "id": "DRAGONS_GRAVEYARD",
+        "name": "Dragon's Graveyard",
+        "region": "Scalebound Clans Territory",
+        "type": "Landmark",
+        "connections": [
+          {
+            "target_id": "STONEGARD",
+            "travel_days": 4,
+            "terrain": "Sacred Valley",
+            "is_hidden": true
+          },
+          {
+            "target_id": "SHATTERED_LANDS_BORDER",
+            "travel_days": 6,
+            "terrain": "Wasteland Edge",
+            "is_hidden": false
+          }
+        ]
+      },
+      {
+        "id": "SHATTERED_LANDS_BORDER",
+        "name": "Shattered Lands Border",
+        "region": "The Shattered Lands",
+        "type": "Landmark",
+        "connections": [
+          {
+            "target_id": "DRAGONS_GRAVEYARD",
+            "travel_days": 6,
+            "terrain": "Wasteland Edge",
+            "is_hidden": false
+          },
+          {
+            "target_id": "MOUNT_DRAGNOR",
+            "travel_days": 8,
+            "terrain": "Ash Fields",
+            "is_hidden": false
+          },
+          {
+            "target_id": "VOID_CHASM",
+            "travel_days": 10,
+            "terrain": "Twisted Wastes",
+            "is_hidden": false
+          }
+        ]
+      },
+      {
+        "id": "MOUNT_DRAGNOR",
+        "name": "Mount Dragnor",
+        "region": "The Shattered Lands",
+        "type": "Dungeon",
+        "connections": [
+          {
+            "target_id": "SHATTERED_LANDS_BORDER",
+            "travel_days": 8,
+            "terrain": "Ash Fields",
+            "is_hidden": false
+          }
+        ]
+      },
+      {
+        "id": "VOID_CHASM",
+        "name": "The Void Chasm",
+        "region": "The Shattered Lands",
+        "type": "Region",
+        "connections": [
+          {
+            "target_id": "SHATTERED_LANDS_BORDER",
+            "travel_days": 10,
+            "terrain": "Twisted Wastes",
+            "is_hidden": false
+          }
+        ]
+      },
+      {
+        "id": "SKY_REACH_AERIE",
+        "name": "Sky-Reach Aerie",
+        "region": "Serpent's Coil mountains",
+        "type": "Village",
+        "connections": [
+          {
+            "target_id": "WYNDIA",
+            "travel_days": 6,
+            "terrain": "Sheer Mountains",
+            "is_hidden": false
+          }
+        ]
+      },
+      {
+        "id": "GLACIAL_MAW_PASS",
+        "name": "Glacial Maw Pass",
+        "region": "The Glacial Maw",
+        "type": "Landmark",
+        "connections": [
+          {
+            "target_id": "FROSTFANG_DEN",
+            "travel_days": 7,
+            "terrain": "Frozen Tundra",
+            "is_hidden": false
+          }
+        ]
+      },
+      {
+        "id": "FROSTFANG_DEN",
+        "name": "Frostfang Den",
+        "region": "The Glacial Maw",
+        "type": "Village",
+        "connections": [
+          {
+            "target_id": "GLACIAL_MAW_PASS",
+            "travel_days": 7,
+            "terrain": "Frozen Tundra",
+            "is_hidden": false
+          }
+        ]
+      },
+      {
+        "id": "OASIS_OF_ZHAVASK",
+        "name": "Oasis of Zha'Vask",
+        "region": "Arcane Dominion Territory",
+        "type": "Town",
+        "connections": [
+          {
+            "target_id": "CRYSTAL_SPIRE",
+            "travel_days": 5,
+            "terrain": "Desert Sands",
+            "is_hidden": false
+          }
+        ]
+      },
+      {
+        "id": "CRYSTAL_SPIRE",
+        "name": "The Crystal Spire",
+        "region": "Arcane Dominion Territory",
+        "type": "Landmark",
+        "connections": [
+          {
+            "target_id": "OASIS_OF_ZHAVASK",
+            "travel_days": 5,
+            "terrain": "Desert Sands",
+            "is_hidden": false
+          },
+          {
+            "target_id": "ARCANUM_VAULTS",
+            "travel_days": 3,
+            "terrain": "Rocky Badlands",
+            "is_hidden": true
+          }
+        ]
+      },
+      {
+        "id": "ARCANUM_VAULTS",
+        "name": "The Arcanum Vaults",
+        "region": "Arcane Dominion Territory",
+        "type": "Dungeon",
+        "connections": [
+          {
+            "target_id": "CRYSTAL_SPIRE",
+            "travel_days": 3,
+            "terrain": "Rocky Badlands",
+            "is_hidden": true
+          }
+        ]
+      },
+      {
+        "id": "TIDEWATCH_SPIRE",
+        "name": "Tidewatch Spire",
+        "region": "The Mistwood Vale",
+        "type": "Outpost",
+        "connections": [
+          {
+            "target_id": "PORT_MYRIA",
+            "travel_days": 3,
+            "terrain": "Coastal Mists",
+            "is_hidden": false
+          },
+          {
+            "target_id": "SUNKEN_CITY_OF_ASTORA",
+            "travel_days": 1,
+            "terrain": "Submerged Path",
+            "is_hidden": true
+          }
+        ]
+      },
+      {
+        "id": "SUNKEN_CITY_OF_ASTORA",
+        "name": "Sunken City of Astora",
+        "region": "The Mistwood Vale",
+        "type": "Dungeon",
+        "connections": [
+          {
+            "target_id": "TIDEWATCH_SPIRE",
+            "travel_days": 1,
+            "terrain": "Submerged Path",
+            "is_hidden": true
+          }
+        ]
+      },
+      {
+        "id": "ELYSIAN_GRAND_CATHEDRAL",
+        "name": "Elysian Grand Cathedral",
+        "region": "Champions of Order Territory",
+        "type": "Landmark",
+        "connections": []
+      }
+    ]
+  }
+}

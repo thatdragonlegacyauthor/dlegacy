@@ -1,0 +1,167 @@
+{
+  "name": "Lirien",
+  "char_id": "SHADOWPELT_LIRIEN",
+  "type": "Panther-like humanoid",
+  "role": "Infiltrator/Assassin",
+  "background": "A master thief from the secretive communities in the Serpent's Maw Jungle. He stole a powerful relic from an Arcane Dominion expedition to disrupt their rituals and now joins the hero to evade the assassins sent after him.",
+  "narrative_hook": "Arcane Dominion pursuers, led by a rival thief, frequently ambush the party. His intimate knowledge of the jungle can uncover hidden paths and lost ruins.",
+  "weapon_proficiency": {
+    "favored_types": [
+      "Dagger",
+      "Crossbow"
+    ],
+    "bonus_effect": "+1 to Attack Rolls with favored weapon types.",
+    "penalty_effect": "-2 to Attack Rolls with non-favored weapon types."
+  },
+  "progression_path": {
+    "attribute_priority": [
+      "Agility",
+      "Might",
+      "Mind",
+      "Spirit"
+    ],
+    "skill_priority": [
+      "Stealth",
+      "Athletics",
+      "Survival"
+    ],
+    "chosen_playstyle": "Path of the Ghost Panther"
+  },
+  "progression_type": "Static",
+  "playstyles": [
+    {
+      "path_name": "Path of the Ghost Panther",
+      "description": "This path is for the pure assassin. It focuses on maximizing Lirien's stealth and burst damage, allowing him to eliminate key targets from the shadows before they even know he's there.",
+      "abilities": [
+        {
+          "tier": "Novice (Level 1+)",
+          "talents": [
+            {
+              "name": "Shadow Strike",
+              "effect": "Deals 1d10 damage. If Lirien is hidden from the target, this attack deals an additional 1d10 damage and the target gains the 'Bleeding' status effect (1d4 damage at the start of their turn until healed)."
+            },
+            {
+              "name": "Night Prowl",
+              "effect": "Gain Advantage on Stealth checks in low light."
+            }
+          ]
+        },
+        {
+          "tier": "Adept (Level 5+)",
+          "talents": [
+            {
+              "name": "Sleight of Hand",
+              "effect": "As a bonus action, you can attempt to lift a small item (a key, a pouch, a potion) from a target within 5 feet. This requires an Agility (Stealth) check opposed by the target's Mind check."
+            },
+            {
+              "name": "Poisoned Blade",
+              "effect": "As a bonus action, you can apply a fast-acting toxin to your weapon. Your next successful Shadow Strike forces the target to make a Might DC 13 check or become 'Poisoned' for 1 minute. This costs 5 Resolve."
+            }
+          ]
+        },
+        {
+          "tier": "Expert (Level 10+)",
+          "talents": [
+            {
+              "name": "Vanish",
+              "effect": "If you are in dim light or darkness, you can use a major action to become invisible until the end of your next turn, or until you attack or use an ability. This costs 10 Resolve."
+            },
+            {
+              "name": "Opportunist (Passive)",
+              "effect": "You can make an Attack of Opportunity without expending your Reaction, once per round."
+            }
+          ]
+        },
+        {
+          "tier": "Master (Level 15+)",
+          "talents": [
+            {
+              "name": "Assassinate",
+              "effect": "If you hit a surprised creature with Shadow Strike, the attack is automatically a critical hit."
+            },
+            {
+              "name": "Killing Blow (Modifies Shadow Strike)",
+              "effect": "The bonus damage dice for attacking from hidden with Shadow Strike increases from 1d10 to 2d10."
+            }
+          ]
+        },
+        {
+          "tier": "Archon (Level 20)",
+          "talents": [
+            {
+              "name": "One with the Shadow (Ultimate)",
+              "effect": "As a major action, you can perfectly meld with the shadows for 1 minute. While this is active, your Vanish ability can be used as a bonus action, and the invisibility does not break after you attack. This can only be used once per day and costs 20 Resolve."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path_name": "Path of the Rooftop Runner",
+      "description": "This path focuses on Lirien's incredible acrobatics and environmental awareness. He becomes a master of mobility, debuffs, and control, using his speed and cunning to outmaneuver foes and turn the battlefield to his advantage.",
+      "abilities": [
+        {
+          "tier": "Novice (Level 1+)",
+          "talents": [
+            {
+              "name": "Acrobatic Movement (Passive)",
+              "effect": "You have a natural climbing speed equal to your walking speed. Additionally, you take no damage from the first 20 feet of a fall."
+            },
+            {
+              "name": "Disengage",
+              "effect": "As a bonus action, you can move up to your full movement speed without provoking any Attacks of Opportunity."
+            }
+          ]
+        },
+        {
+          "tier": "Adept (Level 5+)",
+          "talents": [
+            {
+              "name": "Ricochet Shot",
+              "effect": "As a major action, you can throw a dagger and have it ricochet off a surface. This allows you to make a ranged attack against a target that is in total cover, as long as you can trace a path for the ricochet."
+            },
+            {
+              "name": "Dirty Fighting",
+              "effect": "As a bonus action after hitting a creature with a melee attack, you can throw pocket sand in their eyes. The target has a -2 penalty on their next attack roll."
+            }
+          ]
+        },
+        {
+          "tier": "Expert (Level 10+)",
+          "talents": [
+            {
+              "name": "Wall Run",
+              "effect": "As part of your movement, you can run horizontally along vertical surfaces for a distance up to your movement speed."
+            },
+            {
+              "name": "Trip Wire",
+              "effect": "As a major action, you can quickly set a tripwire between two points within 5 feet of each other. The first enemy to pass through the wire must make an Agility DC 14 check or be knocked prone. This costs 10 Resolve."
+            }
+          ]
+        },
+        {
+          "tier": "Master (Level 15+)",
+          "talents": [
+            {
+              "name": "Uncanny Dodge (Reaction)",
+              "effect": "When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you."
+            },
+            {
+              "name": "Mobile Target (Passive)",
+              "effect": "If you have moved at least 15 feet this turn, all ranged attacks against you have a -2 penalty until the start of your next turn."
+            }
+          ]
+        },
+        {
+          "tier": "Archon (Level 20)",
+          "talents": [
+            {
+              "name": "Perfect Freedom (Ultimate)",
+              "effect": "For 1 minute, your body moves with impossible grace. You are immune to the 'Restrained', 'Paralyzed', and 'Grappled' conditions, your movement does not provoke Attacks of Opportunity, and you can use your Disengage ability as a free action once per turn. This can only be used once per day and costs 20 Resolve."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
